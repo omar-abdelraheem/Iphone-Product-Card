@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Iphone</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">products</a></li>
+          <li><a href="#">news</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="product-info">
+          <h1>iphone 16 pro max</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magni
+            facilis voluptate, reprehenderit sapiente blanditiis assumenda
+            molestiae,
+          </p>
+          <a href="#">all products</a>
+        </div>
+        <div class="product-image">
+          <img id="main-product" src="./images/0.png" alt="product" />
+        </div>
+      </header>
+      <div class="icons">
+        <img
+          onclick="changeProduct(this.src),changeBg('#000')"
+          src="./images/0.png"
+          alt="image"
+        />
+        <img
+          onclick="changeProduct(this.src),changeBg('#93abc4')"
+          src="./images/1.png"
+          alt="image"
+        />
+        <img
+          onclick="changeProduct(this.src),changeBg('#454440')"
+          src="./images/2.png"
+          alt="image"
+        />
+        <img
+          onclick="changeProduct(this.src),changeBg('#d39860')"
+          src="./images/3.png"
+          alt="image"
+        />
+        <img
+          onclick="changeProduct(this.src),changeBg('#e60000')"
+          src="./images/4.png"
+          alt="image"
+        />
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
